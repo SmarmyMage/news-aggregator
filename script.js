@@ -97,7 +97,7 @@ newsFeed.subscribe(updateHeadline);
 newsFeed.subscribe(updateArticleList);
 
 // Fetch and display articles
-NewsFetcher.getArticles().then(articles => {
+NewsFetcher.getArticles(articles).then(articles => {
     articles.forEach(article => {
         newsFeed.addArticle(article);
     });
