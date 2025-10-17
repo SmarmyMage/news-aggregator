@@ -27,7 +27,7 @@ const ConfigManager = (function() {
             }
             return instance;
         }
-    }
+    };
 
 })();
 
