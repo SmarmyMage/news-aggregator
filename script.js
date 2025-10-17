@@ -92,6 +92,7 @@ function updateArticleList(article) {
     articleListElement.appendChild(listItem);
 }
 
+// TODO: Subscribe Observers
 newsFeed.subscribe(updateHeadline);
 newsFeed.subscribe(updateArticleList);
 
