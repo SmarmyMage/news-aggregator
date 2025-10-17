@@ -16,7 +16,7 @@ const ConfigManager = (function() {
         return {
             theme: 'dark',
             apiUrl: 'https://newsapi.org/v2/top-headlines',
-            apiKey: '7f3a50f7fa26460e919ca0f2f875ea9d'
+            apiKey: '7f3a50f7fa26460e919ca0f2f875ea9d',
         };
     }
 
