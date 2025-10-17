@@ -56,7 +56,7 @@ function NewsFeed() {
 
 NewsFeed.prototype = {
     subscribe: function(observer) {
-        this.observations.push(observer);
+        this.observers.push(observer);
     },
 
     unsubscribe: function(observer) {
